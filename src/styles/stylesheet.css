@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: Montserrat Alternates SemiBold, "Poppins" serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth !important;
+}
+
+html,
+body {
+  background-color: #192734;
+
+  /*min-height: -webkit-fill-available;*/
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+
+  /* width: fit-content; */
+
+  /* Added */
+  position: relative;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  /* overflow: hidden !important; */
+}
+
+html {
+  /* width: fit-content; */
+  overflow-y: auto !important;
+  scroll-behavior: smooth !important;
+}
