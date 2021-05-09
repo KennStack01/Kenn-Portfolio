@@ -10,6 +10,7 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-postcss',
     // `gatsby-plugin-image`,

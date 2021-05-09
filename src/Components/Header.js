@@ -7,7 +7,7 @@ const activeLinkStyles = {textDecoration: "underline", textDecorationColor: "#EB
 const Header = () => {
 
     return (
-        <div className="flex flex-row justify-between backdrop-filter backdrop-blur md:shadow top-0 md:sticky lg:mb-5 lg:pb-2 mb-0">
+        <div className="flex flex-row justify-between md:backdrop-filter backdrop-blur md:shadow top-0 md:sticky lg:mb-5 lg:pb-2 mb-0">
             <h1 className="text-white font-semibold mt-2 ml-2 cursor-pointer md:ml-10"> 
                 <Link to="/">
                     <div className="flex flex-row">

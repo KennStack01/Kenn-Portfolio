@@ -11,11 +11,7 @@ const styles = {
 // Handling smooth-scroll in the page (from About Component)
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]',{
-      speed: 400,
-      speedAsDuration: true,
-      easing: 'easeInOutCubic'
-  })
+  require("smooth-scroll")('a[href*="#"]')
 }
 
 const Layout = (props) => {

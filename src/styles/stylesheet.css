@@ -10,7 +10,7 @@ body {
   font-kerning: normal;
   overflow-x: hidden !important;
   overflow-y: scroll !important;
-  scroll-behavior: smooth !important;
+  /* scroll-behavior: smooth !important; */
 }
 
 html,

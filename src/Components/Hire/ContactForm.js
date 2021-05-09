@@ -13,7 +13,7 @@ const ContactForm = () => {
                         <h1 className="text-left">
                             Name 
                         </h1>
-                        <input type="text" name="name" className="p-1 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required/>
+                        <input type="text" name="name" className="text-mirage-500 p-1 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required/>
                     </label>   
                 </p>
                 <p className="my-2">
@@ -21,7 +21,7 @@ const ContactForm = () => {
                         <h1 className="text-left">
                             Email 
                         </h1>
-                        <input type="email" name="email" className="p-1 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required/>
+                        <input type="email" name="email" className="text-mirage-500 p-1 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required/>
                     </label>
                 </p>
                 <p className="my-2">
@@ -29,7 +29,7 @@ const ContactForm = () => {
                         <h1 className="text-left">
                             Message 
                         </h1>
-                        <textarea name="message" className="text-mirage-500 p-4 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required></textarea>
+                        <textarea name="message" className="text-mirage-500 p-2 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-myYellow-500 focus:border-transparent" required></textarea>
                     </label>
                 </p>
                 <button type="submit" className="bg-white hover:bg-gray-300 py-2 w-36 rounded mb-5">

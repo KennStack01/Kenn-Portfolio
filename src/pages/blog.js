@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../Components/Layout'
-
+import BlogArticles from '../Components/Blog/BlogArticles'
 
 const blog = () => {
     return (
         <div className="min-h-screen h-max">
             <Layout>
-                <h1>Welcome to Blog</h1>
+                <div>
+                    <BlogArticles/>
+                </div>
             </Layout>
         </div>
     )
