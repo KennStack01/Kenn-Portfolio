@@ -969,6 +969,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.12.13":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.12.6":
   version "7.14.1"
   resolved "https://registry.npmjs.org/@babel/standalone/-/standalone-7.14.1.tgz"
@@ -3803,7 +3810,7 @@ create-require@^1.1.0:
   resolved "https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
-cross-fetch@3.1.4:
+cross-fetch@3.1.4, cross-fetch@^3.0.6:
   version "3.1.4"
   resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.4.tgz"
   integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
@@ -4497,6 +4504,11 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom-walk@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz"
+  integrity sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==
 
 domelementtype@1, domelementtype@^1.3.1:
   version "1.3.1"
@@ -5315,7 +5327,7 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extract-files@9.0.0:
+extract-files@9.0.0, extract-files@^9.0.0:
   version "9.0.0"
   resolved "https://registry.npmjs.org/extract-files/-/extract-files-9.0.0.tgz"
   integrity sha512-CvdFfHkC95B4bBBk36hcEmvdR2awOdhhVUYH6S/zrVj3477zven/fJMYg7121h4T1xHZC+tetUpubpAhxwI7hQ==
@@ -6020,18 +6032,20 @@ gatsby-source-filesystem@^3.4.0:
 
 gatsby-source-hashnode-devblog@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-hashnode-devblog/-/gatsby-source-hashnode-devblog-0.2.0.tgz#e434249ed90814c28566114d6930ed55c8e34960"
+  resolved "https://registry.npmjs.org/gatsby-source-hashnode-devblog/-/gatsby-source-hashnode-devblog-0.2.0.tgz"
   integrity sha512-GUGB8qJJT1iOd5DiPgxK3ea9y8dT7mcwcxswE8XLqlk/MfVbpdPli/yy0tEpPOmw1+Lr162c90iKbwRRpHMANQ==
   dependencies:
     axios "^0.21.1"
 
-gatsby-source-medium@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-medium/-/gatsby-source-medium-3.4.0.tgz#ebba6cf94c1a16202b898c7beb621ea14c0a716a"
-  integrity sha512-djSS6mS9PqR55cuMcxkWgU9GgzohRmolbtvbnT9g6WkM5vZJhqAhM1xXeK1IgRHD5AiQK2Cj6ZbO0C1wpdVJIA==
+gatsby-source-hashnode@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-hashnode/-/gatsby-source-hashnode-1.0.1.tgz#3e91d2c60a7629367e5241965503ab1c62ae95e5"
+  integrity sha512-sLw/mYUYXVTayi+wbDez/y3YxrAG/jmtGtV0sin9Xzs6vVWefYj56S1JY06dDDPUf2TbS8W2ynSQAYKet2PMLQ==
   dependencies:
-    "@babel/runtime" "^7.12.5"
-    axios "^0.21.1"
+    "@babel/runtime" "^7.12.13"
+    graphql "^15.4.0"
+    graphql-request "^3.4.0"
+    reading-time "^1.3.0"
 
 gatsby-telemetry@^2.4.1:
   version "2.4.1"
@@ -6376,6 +6390,14 @@ global-prefix@^3.0.0:
     kind-of "^6.0.2"
     which "^1.3.1"
 
+global@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/global/-/global-4.4.0.tgz"
+  integrity sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
+
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.npmjs.org/globals/-/globals-11.12.0.tgz"
@@ -6562,6 +6584,15 @@ graphql-playground-middleware-express@^1.7.18:
   integrity sha512-PJLiCxLmN6Dp+dHGyHU92m9y3hB/RAkcUBWcqYl2fiP+EbpDDgNfElrsVzW60MhJe+LTV1PFqiInH2d3KNvlCQ==
   dependencies:
     graphql-playground-html "^1.6.29"
+
+graphql-request@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-3.4.0.tgz#3a400cd5511eb3c064b1873afb059196bbea9c2b"
+  integrity sha512-acrTzidSlwAj8wBNO7Q/UQHS8T+z5qRGquCQRv9J1InwR01BBWV9ObnoE+JS5nCCEj8wSGS0yrDXVDoRiKZuOg==
+  dependencies:
+    cross-fetch "^3.0.6"
+    extract-files "^9.0.0"
+    form-data "^3.0.0"
 
 graphql-subscriptions@^1.1.0:
   version "1.2.1"
@@ -8814,6 +8845,13 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.npmjs.org/mimic-response/-/mimic-response-1.0.1.tgz"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz"
+  integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+  dependencies:
+    dom-walk "^0.1.0"
+
 min-indent@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz"
@@ -10353,6 +10391,11 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
+process@^0.11.10:
+  version "0.11.10"
+  resolved "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
+  integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+
 progress@^2.0.0, progress@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
@@ -10804,6 +10847,11 @@ readdirp@~3.5.0:
   integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
+
+reading-time@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/reading-time/-/reading-time-1.3.0.tgz#d13e74431589a4a9038669f24d5acbc08bbb015d"
+  integrity sha512-RJ8J5O6UvrclfZpcPSPuKusrdRfoY7uXXoYOOdeswZNtSkQaewT3919yz6RyloDBR+iwcUyz5zGOUjhgvfuv3g==
 
 recursive-readdir@2.2.2:
   version "2.2.2"
@@ -12556,7 +12604,7 @@ type-fest@0.20.2, type-fest@^0.20.2:
 
 type-fest@^0.13.1:
   version "0.13.1"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.13.1.tgz#0172cb5bce80b0bd542ea348db50c7e21834d934"
   integrity sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==
 
 type-fest@^0.21.3:

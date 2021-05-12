@@ -13,6 +13,12 @@ module.exports = {
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-postcss',
+    {
+      resolve: "gatsby-source-hashnode",
+      options: {
+        username: "Kenn",
+      },
+    },
     // `gatsby-plugin-image`,
     // `gatsby-plugin-sharp`,
     // `gatsby-transformer-sharp`, // Needed for dynamic images

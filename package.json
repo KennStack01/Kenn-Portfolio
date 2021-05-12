@@ -6,8 +6,8 @@
   "license": "0BSD",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "developx": "env-cmd -f .env.development gatsby develop",
-    "develop": "gatsby develop --host=0.0.0.0",
+    "develop": "env-cmd -f .env.development gatsby develop --host=0.0.0.0",
+    "developx": "gatsby develop --host=0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -17,9 +17,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "gatsby": "^3.4.1",
+    "gatsby-cli": "^3.4.1",
     "gatsby-source-contentful": "^5.4.0",
+    "gatsby-source-hashnode": "^1.0.1",
     "gatsby-source-hashnode-devblog": "^0.2.0",
-    "gatsby-source-medium": "^3.4.0",
+    "global": "^4.4.0",
     "imagemin-pngquant": "5.0.1",
     "pngquant-bin": "3.1.1",
     "react": "^17.0.1",
