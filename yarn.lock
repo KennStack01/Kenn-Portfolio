@@ -3469,7 +3469,7 @@ create-error-class@^3.0.1:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-create-gatsby@^1.5.0:
+create-gatsby@^1.4.0, create-gatsby@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-1.5.0.tgz#e7a61e86a3909381184e170ff4225bc6a72ca00a"
   integrity sha512-oEGYAvysG5OogLp06mp6Hk84ay7kirCIe2/XAWAz5r/11SIzAL/bvcOF5FDTnRdWHrYNu8JZHmfab6NqlvpiWw==
@@ -5362,6 +5362,50 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+gatsby-cli@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-3.4.1.tgz#eccbbd71289a4da0dcbc05d8f51ca8ea891fafaf"
+  integrity sha512-w93IcAL/Zl1x9oD6pw/iJ0DkAC1V78NhL9K0QvIjwa5Rx/EOhZ0cx3+bX9/l1v1aDX8YSUk09Ac4QhAizeGBUA==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@types/common-tags" "^1.8.0"
+    better-opn "^2.0.0"
+    chalk "^4.1.0"
+    clipboardy "^2.3.0"
+    common-tags "^1.8.0"
+    configstore "^5.0.1"
+    convert-hrtime "^3.0.0"
+    create-gatsby "^1.4.0"
+    envinfo "^7.7.3"
+    execa "^3.4.0"
+    fs-exists-cached "^1.0.0"
+    fs-extra "^8.1.0"
+    gatsby-core-utils "^2.4.0"
+    gatsby-recipes "^0.15.1"
+    gatsby-telemetry "^2.4.1"
+    hosted-git-info "^3.0.6"
+    is-valid-path "^0.1.1"
+    joi "^17.4.0"
+    lodash "^4.17.21"
+    meant "^1.0.2"
+    node-fetch "^2.6.1"
+    opentracing "^0.14.4"
+    pretty-error "^2.1.1"
+    progress "^2.0.3"
+    prompts "^2.3.2"
+    redux "^4.0.5"
+    resolve-cwd "^3.0.0"
+    semver "^7.3.2"
+    signal-exit "^3.0.3"
+    source-map "0.7.3"
+    stack-trace "^0.0.10"
+    strip-ansi "^5.2.0"
+    update-notifier "^5.0.1"
+    uuid "3.4.0"
+    yargs "^15.4.1"
+    yoga-layout-prebuilt "^1.9.6"
+    yurnalist "^2.1.0"
+
 gatsby-cli@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-3.5.0.tgz#3af411ce3ba5c48ec481525ad06ab3e6bbde6ec3"
@@ -5406,7 +5450,7 @@ gatsby-cli@^3.5.0:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^2.5.0:
+gatsby-core-utils@^2.4.0, gatsby-core-utils@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.5.0.tgz#70b3aabf184a39c790e12af8001be4164fd8afa6"
   integrity sha512-YbKv7FLpeTCts28bv0H2lSuHrKgUxnsC1ZG1PPydOheQgPW9G8pdNlYvwZzGJmmS7rBcC/w859ss90wlvF6GEw==
@@ -5513,6 +5557,70 @@ gatsby-react-router-scroll@^4.5.0:
   integrity sha512-iE58ZuyMpgfaeuzkcR5P3y6RKYRPfGYYkIeYnXDJ2fwYNpKzPOcf0kPH12fBtb2ZKjHMy4ZmyqHppKqClvu0GQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
+
+gatsby-recipes@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-0.15.1.tgz#0e99eb0f66d58b8d4ae3250ac19a3b3c6d5eb7fd"
+  integrity sha512-GyQbITic2Id1rkG7UaQ1ALqAy/rP1ACS90jOM8iU4KTTYMfClNRoRcpOFuPGGBhNJ71Oigbk9fXDCYEHy8IZdw==
+  dependencies:
+    "@babel/core" "^7.12.3"
+    "@babel/generator" "^7.12.5"
+    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/plugin-proposal-optional-chaining" "^7.12.1"
+    "@babel/plugin-transform-react-jsx" "^7.12.5"
+    "@babel/standalone" "^7.12.6"
+    "@babel/template" "^7.10.4"
+    "@babel/types" "^7.12.6"
+    "@graphql-tools/schema" "^7.0.0"
+    "@graphql-tools/utils" "^7.0.2"
+    "@hapi/hoek" "8.x.x"
+    "@hapi/joi" "^15.1.1"
+    better-queue "^3.8.10"
+    chokidar "^3.4.2"
+    contentful-management "^7.5.1"
+    cors "^2.8.5"
+    debug "^4.3.1"
+    detect-port "^1.3.0"
+    dotenv "^8.2.0"
+    execa "^4.0.2"
+    express "^4.17.1"
+    express-graphql "^0.9.0"
+    fs-extra "^8.1.0"
+    gatsby-core-utils "^2.4.0"
+    gatsby-telemetry "^2.4.1"
+    glob "^7.1.6"
+    graphql "^15.4.0"
+    graphql-compose "~7.25.0"
+    graphql-subscriptions "^1.1.0"
+    graphql-type-json "^0.3.2"
+    hicat "^0.8.0"
+    is-binary-path "^2.1.0"
+    is-url "^1.2.4"
+    jest-diff "^25.5.0"
+    lock "^1.0.0"
+    lodash "^4.17.21"
+    mitt "^1.2.0"
+    mkdirp "^0.5.1"
+    node-fetch "^2.5.0"
+    pkg-dir "^4.2.0"
+    prettier "^2.0.5"
+    prop-types "^15.6.1"
+    remark-mdx "^2.0.0-next.4"
+    remark-mdxjs "^2.0.0-next.4"
+    remark-parse "^6.0.3"
+    remark-stringify "^8.1.0"
+    resolve-from "^5.0.0"
+    semver "^7.3.2"
+    single-trailing-newline "^1.0.0"
+    strip-ansi "^6.0.0"
+    style-to-object "^0.3.0"
+    unified "^8.4.2"
+    unist-util-remove "^2.0.0"
+    unist-util-visit "^2.0.2"
+    uuid "3.4.0"
+    ws "^7.3.0"
+    xstate "^4.9.1"
+    yoga-layout-prebuilt "^1.9.6"
 
 gatsby-recipes@^0.16.0:
   version "0.16.0"
@@ -5640,7 +5748,7 @@ gatsby-source-hashnode@^1.0.1:
     graphql-request "^3.4.0"
     reading-time "^1.3.0"
 
-gatsby-telemetry@^2.5.0:
+gatsby-telemetry@^2.4.1, gatsby-telemetry@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-2.5.0.tgz#ea3519afd9e905d6a6b1d01209e8df048764be1e"
   integrity sha512-PbyYw74t/RLVbEWicjAdrCMttV1GSbuHZit0PsVPqqwNlL1LalJa/V7lcVMqqGrEbkB+fUoKkk1u2o+TDgvIng==
