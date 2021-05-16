@@ -11,8 +11,15 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   flags: { PRESERVE_WEBPACK_CACHE: true },
+  siteMetadata: {
+    title: `Kenn KIBADI Stack Portfolio`,
+    description: `Kenn Stack Portfolio`,
+    author: `@KennKIBADI`,
+    keywords: `Kenn, Stack, Portfolio, Software Developer. This Kenn Portfolio, He's a Software Engineer.`,
+  },
   plugins: [
     'gatsby-plugin-postcss',
+    'gatsby-plugin-react-helmet',
     {
       resolve: "gatsby-source-hashnode",
       options: {

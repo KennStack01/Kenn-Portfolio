@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery} from 'gatsby'
+import { Link } from 'gatsby'
 import { IoArrowForwardOutline } from 'react-icons/io5'
 
 
@@ -14,6 +15,7 @@ const BlogArticles = () => {
                         title
                         brief
                         dateAdded
+                        slug
                     }
                 }
             }
@@ -43,7 +45,7 @@ const BlogArticles = () => {
                                 </div>
                             </div>
                             <div className="m-auto my-2">
-                                <a href="/blog"> 
+                                <a href={`https://stackoverblog.hashnode.dev/${post.slug}`} target="__blank"> 
                                     <div className="font-semibold flex flex-row text-white"> 
                                         <h3>
                                             Read more 
@@ -53,6 +55,16 @@ const BlogArticles = () => {
                                         </span>  
                                     </div> 
                                 </a>
+                                {/* <Link to={`/blog/${post.slug}`}> 
+                                    <div className="font-semibold flex flex-row text-white"> 
+                                        <h3>
+                                            Read more 
+                                        </h3>
+                                        <span className="text-xl mt-1 mx-2"> 
+                                            <IoArrowForwardOutline/> 
+                                        </span>  
+                                    </div> 
+                                </Link> */}
                             </div>
                         </section>
                     )) }

@@ -3,6 +3,9 @@ import { Link } from 'gatsby'
 import { IoBulb } from 'react-icons/io5'
 
 const activeLinkStyles = {textDecoration: "underline", textDecorationColor: "#EBFF03", textUnderlinePosition: "under", textDecorationThickness: "3px"}
+let activeAnimationStyleCSS = 'animate-ping absolute ml-7 h-5 w-5 rounded-full bg-myYellow-400 opacity-75'
+const hirePagePath = ['/hire']
+
 
 const Header = () => {
 
@@ -44,9 +47,12 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className=" mx-4 cursor-pointer">
-                        <Link to="/hire" activeStyle={activeLinkStyles} activeClassName="active">
+                        <Link to="/hire" activeStyle={activeLinkStyles} activeClassName='active'>
                             <div className="grid justify-items-center">
-                                <span className="animate-ping absolute ml-7 h-5 w-5 rounded-full bg-myYellow-400 opacity-75"></span>
+                                { (!(window.location.pathname.includes(hirePagePath))) ? (
+                                        <span className={activeAnimationStyleCSS}></span>
+                                    ) : ''
+                                }
                                 <h1 className="text-white border-transparent border-b-2 hover:border-myYellow-500"> • Hire me </h1>
                             </div>
                         </Link>

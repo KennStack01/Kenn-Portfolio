@@ -48,11 +48,11 @@ const Profile = () => {
                 </div>
 
                 <div className="md:mt-4 md:mr-12">
-                    <p className="flex flex-row justify-center my-5 md:mt-12 md:mr-5">
-                        <div className="text-justify text-white text-sm md:text-lg md:mt-12 font-sans font-normal p-3">
+                    <div className="flex flex-row justify-center my-5 md:mt-12 md:mr-5">
+                        <p className="text-justify text-white text-sm md:text-lg md:mt-12 font-sans font-normal p-3">
                             {data.contentfulSelfIntroduction.myDescription.myDescription.bodyText}
-                        </div>
-                    </p>
+                        </p>
+                    </div>
                     {/* Logos Social Media */}
                     <div className="flex flex-row justify-around md:justify-evenly my-7 font-semibold	">
                         <a href="https://www.linkedin.com/in/kennkibadi/"  target="__blank" className="flex flex-row justify-center text-white ">

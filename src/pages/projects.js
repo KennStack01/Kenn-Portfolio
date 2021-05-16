@@ -4,11 +4,13 @@ import Layout from '../Components/Layout'
 import Toolbox from '../Components/Projects/Toolbox'
 import Works from '../Components/Projects/Works'
 import { IoArrowForwardCircleSharp } from 'react-icons/io5'
+import SEO from "../components/SEO"
 
 
 const projects = () => {
     return (
         <div className="min-h-screen">
+            <SEO title="Project" description="Projects built by Kenn KIBADI" />
             <Layout>
                 <Toolbox/>
                 <Works/>

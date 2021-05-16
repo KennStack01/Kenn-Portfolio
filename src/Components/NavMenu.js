@@ -7,6 +7,8 @@ import { Link } from 'gatsby'
 
 
 const activeLinkStyles = {textDecoration: "underline", textDecorationColor: "#EBFF03", textUnderlinePosition: "under", textDecorationThickness: "3px"}
+let activeAnimationStyleCSS = 'animate-ping absolute ml-7 h-5 w-5 rounded-full bg-myYellow-400 opacity-75'
+const hirePagePath = ['/hire']
 
 
 const NavMenu = () => {
@@ -46,7 +48,10 @@ const NavMenu = () => {
                 <div className="cursor-pointer">
                     <Link to="/hire" activeStyle={activeLinkStyles} activeClassName="active">
                         <div className="grid justify-items-center border-transparent border-b-3 hover:border-myYellow-500">
-                            <span className="animate-ping absolute ml-5 h-5 w-5 rounded-full bg-myYellow-400 opacity-75"></span>
+                            { (!(window.location.pathname.includes(hirePagePath))) ? (
+                                        <span className={activeAnimationStyleCSS}></span>
+                                    ) : ''
+                            }
                             <div className="text-2xl">
                                 <IoChatbubblesSharp/>
                             </div>
