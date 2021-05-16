@@ -10,7 +10,7 @@ import SEO from "../components/SEO"
 function hire() {
     return (
         <div className="min-h-screen h-max">
-            <SEO title="Hiring" description="You can hire Kenn" />
+            <SEO title="Hiring" description="Hire Kenn" />
             <Layout>
                 <MyLinktree />
                 <ContactForm/>
