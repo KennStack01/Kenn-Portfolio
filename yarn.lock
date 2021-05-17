@@ -3312,9 +3312,9 @@ content-type@^1.0.4, content-type@~1.0.4:
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
 contentful-management@^7.5.1:
-  version "7.19.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-7.19.1.tgz#f7f572d6fc1bb90b08b34b9d2a0f8d2465f3c2a7"
-  integrity sha512-sGcp/B5dBKVzPGiuhEBGr1Q4oKE/WR9XV0UNyje6jNGXdeW0SEMbu/VFWBYfvc3zFNeU84dChGyW77igol/vHA==
+  version "7.20.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-7.20.0.tgz#2e06506f73d4dad75bb486c82ff217287acf3cf6"
+  integrity sha512-SGCbQ5ngLtsWprZzjnnFmOO2fMxR+GtXfBrZaExMeZyZW7Q9QZ6irLHsChxktCQBteTCn1ecHs+HJ/hzGPby8g==
   dependencies:
     "@types/json-patch" "0.0.30"
     axios "^0.21.0"
@@ -5406,7 +5406,7 @@ gatsby-cli@^3.5.0:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^2.5.0:
+gatsby-core-utils@^2.4.0, gatsby-core-utils@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.5.0.tgz#70b3aabf184a39c790e12af8001be4164fd8afa6"
   integrity sha512-YbKv7FLpeTCts28bv0H2lSuHrKgUxnsC1ZG1PPydOheQgPW9G8pdNlYvwZzGJmmS7rBcC/w859ss90wlvF6GEw==
@@ -5500,7 +5500,7 @@ gatsby-plugin-typescript@^3.5.0:
     "@babel/runtime" "^7.12.5"
     babel-plugin-remove-graphql-queries "^3.5.0"
 
-gatsby-plugin-utils@^1.5.0:
+gatsby-plugin-utils@^1.4.0, gatsby-plugin-utils@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.5.0.tgz#793b0796ea225cf3c75871d06f5e75e3c3fa82c9"
   integrity sha512-IqCXOGTC+WRtzLUhEbJzR9RlumDGtN/xmsl41AOgfeJvfdeXiomm9nrlCs915XDZh/fYa5MbRpf7Xu4S3skhLA==
@@ -5578,10 +5578,10 @@ gatsby-recipes@^0.16.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-contentful@^5.4.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-5.5.0.tgz#3bf5a0e696b0ccc92a6ba47b02d1003cc41e160d"
-  integrity sha512-9G4LS98COOQ1lmfzWvVFJyAB8DEON4tmJdLrxSmOrrCnrE59+KnoiIUfkTfYVXbml5lapmYYXjSG/eL11YcPKw==
+gatsby-source-contentful@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-5.4.0.tgz#d09ecedbd8d38fb1f0bfbf901819ec99fb918574"
+  integrity sha512-lgLyDFxrCWW6tKt+WBzDR3cbPMSVtdkhYR62o/uqLXWqcRKqRmKHADJpSHEOx10yMX52z7DAbRNZQFTROJqvAQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@contentful/rich-text-react-renderer" "^14.1.2"
@@ -5593,9 +5593,9 @@ gatsby-source-contentful@^5.4.0:
     common-tags "^1.8.0"
     contentful "^8.1.7"
     fs-extra "^9.1.0"
-    gatsby-core-utils "^2.5.0"
-    gatsby-plugin-utils "^1.5.0"
-    gatsby-source-filesystem "^3.5.0"
+    gatsby-core-utils "^2.4.0"
+    gatsby-plugin-utils "^1.4.0"
+    gatsby-source-filesystem "^3.4.0"
     is-online "^8.5.1"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.21"
@@ -5604,7 +5604,7 @@ gatsby-source-contentful@^5.4.0:
     qs "^6.9.6"
     retry-axios "^2.4.0"
 
-gatsby-source-filesystem@^3.5.0:
+gatsby-source-filesystem@^3.4.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-3.5.0.tgz#b25645c663a8c188dece11de6c9ace5872316180"
   integrity sha512-o0JGFGHwjqgy1IciifMoMek/ulpO/lvwhpAxxjpDl3vqzO6beoAdaLrLe6zRn403XXSA14TDP9KUNfePLlp1lg==
@@ -11039,9 +11039,9 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.7.tgz#e9c18a410e5ed7e12442a549fbd8afa767038d65"
-  integrity sha512-U+MTEOO0AiDzxwFvoa4JVnMV6mZlJKk2sBLt90s7G0Gd0Mlknc7kxEn3nuDPNZRta7O2uy8oLcZLVT+4sqNZHQ==
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.8.tgz#eb1e97ad99b11bf3f82a3b71a0472dd9a00f2ecf"
+  integrity sha512-NDgA96EnaLSvtbM7trJj+t1LUR3pirkDCcz9nOUlPb5DMBGsH7oES6C3hs3j7R9oHEa1EMvReS/BUAIT5Tcr0g==
 
 spdy-transport@^3.0.0:
   version "3.0.0"
@@ -12644,9 +12644,9 @@ xdg-basedir@^4.0.0:
   integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
 
 xmlhttprequest-ssl@~1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.6.2.tgz#dd6899bfbcf684b554e393c30b13b9f3b001a7ee"
-  integrity sha512-tYOaldF/0BLfKuoA39QMwD4j2m8lq4DIncqj1yuNELX4vz9+z/ieG/vwmctjJce+boFHXstqhWnHSxc4W8f4qg==
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.6.3.tgz#03b713873b01659dfa2c1c5d056065b27ddc2de6"
+  integrity sha512-3XfeQE/wNkvrIktn2Kf0869fC0BN6UpydVasGIeSm2B1Llihf7/0UfZM+eCkOw3P7bP4+qPgqhm7ZoxuJtFU0Q==
 
 xss@^1.0.6:
   version "1.0.9"
