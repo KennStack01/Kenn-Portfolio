@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../Components/Layout'
 import MyLinktree from '../Components/Hire/MyLinktree'
 import ContactForm from '../Components/Hire/ContactForm'

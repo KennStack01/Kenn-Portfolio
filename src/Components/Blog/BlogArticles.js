@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql, useStaticQuery} from 'gatsby'
-import { Link } from 'gatsby'
 import { IoArrowForwardOutline } from 'react-icons/io5'
 
 

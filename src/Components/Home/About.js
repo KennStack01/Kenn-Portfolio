@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+ 
+/* eslint-disable */ 
 
 function About() {
     return (

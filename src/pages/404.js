@@ -3,6 +3,8 @@ import Layout from '../Components/Layout'
 import SEO from "../components/SEO"
 import { Link } from 'gatsby'
 
+/* eslint-disable */ 
+
 function NotFoundPage() {
     return (
         <div className="min-h-screen">    

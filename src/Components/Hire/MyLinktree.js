@@ -7,6 +7,7 @@ import { IoMailUnreadOutline } from 'react-icons/io5'
 import { CgIndieHackers } from 'react-icons/cg'
 import { FaInstagram } from 'react-icons/fa'
 
+/* eslint-disable */ 
 
 const MyLinktree = () => {
     return (

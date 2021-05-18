@@ -2,6 +2,8 @@ import React from 'react'
 import { graphql, useStaticQuery} from 'gatsby'
 import { IoColorPaletteSharp } from 'react-icons/io5'
 
+/* eslint-disable */ 
+
 const Works = () => {
 
     const data = useStaticQuery(graphql`

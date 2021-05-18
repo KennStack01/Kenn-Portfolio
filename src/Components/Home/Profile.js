@@ -2,13 +2,13 @@ import React from 'react'
 import { graphql, useStaticQuery} from 'gatsby'
 
 import About from './About'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import { IoLogoTwitter } from 'react-icons/io5'
 import { IoLogoLinkedin } from 'react-icons/io5'
 import { IoLogoGithub } from 'react-icons/io5'
 import { IoArrowDownCircle } from 'react-icons/io5'
-import { IoArrowUpCircle } from 'react-icons/io5'
+// import { IoArrowUpCircle } from 'react-icons/io5'
 
 
 

@@ -10,7 +10,7 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  // flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     title: `Kenn KIBADI Stack Portfolio`,
     description: `Kenn Stack Portfolio`,

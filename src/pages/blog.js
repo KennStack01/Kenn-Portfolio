@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../Components/Layout'
 import BlogArticles from '../Components/Blog/BlogArticles'
 import SEO from "../components/SEO"
