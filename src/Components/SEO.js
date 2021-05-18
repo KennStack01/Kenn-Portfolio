@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 
 
 // UNDER CONSTRUCTION
-const Seo = ({ description, lang, meta, title  }) => {
+function Seo({ description, lang, meta, title  }) {
   const site = query
   // const { description, lang, meta, title } = site
 
