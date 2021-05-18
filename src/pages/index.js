@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../Components/Layout'
 import Profile from '../Components/Home/Profile'
-import SEO from "../Components/Seo"
+import SEO from "../Components/SeoComponent"
 
 
 
