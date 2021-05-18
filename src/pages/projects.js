@@ -4,7 +4,7 @@ import Layout from '../Components/Layout'
 import Toolbox from '../Components/Projects/Toolbox'
 import Works from '../Components/Projects/Works'
 import { IoArrowForwardCircleSharp } from 'react-icons/io5'
-import SEO from "../Components/SeoComponent"
+import SEO from "../Components/SEOComponent"
 
 
 /* eslint-disable */ 

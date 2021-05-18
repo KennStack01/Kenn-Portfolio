@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../Components/Layout'
-import SEO from "../Components/SeoComponent"
+import SEO from "../Components/SEOComponent"
 import { Link } from 'gatsby'
 
 /* eslint-disable */ 

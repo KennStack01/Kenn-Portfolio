@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../Components/Layout'
 import BlogArticles from '../Components/Blog/BlogArticles'
-import SEO from "../Components/SeoComponent"
+import SEO from "../Components/SEOComponent"
 
 
 const blog = () => {
