@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../Components/Layout'
 import MyLinktree from '../Components/Hire/MyLinktree'
 import ContactForm from '../Components/Hire/ContactForm'
-import SEO from "../components/Seo"
+import SEO from "../components/seo"
 
 
 
