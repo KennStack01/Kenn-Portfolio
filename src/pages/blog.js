@@ -7,7 +7,7 @@ import SEO from "../Components/SeoComponent"
 const blog = () => {
     return (
         <div className="min-h-screen h-max">
-            <SEO title="Blog" description="Kenn's Blog" />
+            <SEO title="Kenn's Blog" description="Kenn's Blog containing what he shares with the public" />
             <Layout>
                 <div>
                     <BlogArticles/>

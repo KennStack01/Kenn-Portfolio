@@ -12,8 +12,8 @@ module.exports = {
   /* Your site config here */
   // flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
-    title: `Kenn KIBADI Stack Portfolio`,
-    description: `Kenn Stack Portfolio`,
+    title: `Kenn KIBADI - Software Developer & Product Designer`,
+    description: `Building Beautiful Apps from Design to Code`,
     author: `@KennKIBADI`,
     keywords: `Kenn, Stack, Portfolio, Software Developer. This Kenn Portfolio, He's a Software Engineer.`,
   },

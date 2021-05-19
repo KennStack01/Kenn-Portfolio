@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
+import previewPicture from '../Images/preview.jpg'
 
 
 // UNDER CONSTRUCTION
@@ -12,7 +13,6 @@ function SeoComponent({ description, lang, meta, title  }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
-  console.log(site)
 
   return (
     <Helmet
@@ -33,6 +33,10 @@ function SeoComponent({ description, lang, meta, title  }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: `${previewPicture}`,
         },
         {
           property: `og:type`,

@@ -12,7 +12,7 @@ import SEO from "../Components/SeoComponent"
 const projects = () => {
     return (
         <div className="min-h-screen">
-            <SEO title="Project" description="Projects built by Kenn KIBADI" />
+            <SEO title="Kenn's Projects" description="Projects built by Kenn KIBADI" />
             <Layout>
                 <Toolbox/>
                 <Works/>
