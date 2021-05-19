@@ -43,8 +43,8 @@ const Profile = () => {
                         src={data.contentfulSelfIntroduction.profilePicture.file.url} 
                         alt={data.contentfulSelfIntroduction.profilePicture.title}
                     />
-                    <h1 className="text-white my-3 text-lg md:text-lg lg:text-xl font-bold"> {data.contentfulSelfIntroduction.myName} </h1>
-                    <h1 className="text-white my-3 text-sm md:text-sm lg:text-md font-semibold	">{data.contentfulSelfIntroduction.jobTitle}</h1>
+                    <h1 className="text-white my-3 text-lg md:text-lg lg:text-xl font-sans font-bold"> {data.contentfulSelfIntroduction.myName} </h1>
+                    <h1 className="text-white my-3 text-sm md:text-sm lg:text-md font-sans font-semibold	">{data.contentfulSelfIntroduction.jobTitle}</h1>
                 </div>
 
                 <div className="md:mt-4 md:mr-12">
@@ -80,7 +80,7 @@ const Profile = () => {
             <div className="mt-7 mb-3 md:mt-12 flex flex-row justify-center md:my-10 md:mb-12">
                 <a href="/#about">
                     <button className="flex flex-row text-mirage-500 bg-white md:mt-6 rounded p-1 pr-6">
-                        <h1 className="text-md my-1 ml-2 font-semibold">
+                        <h1 className="text-md my-1 ml-2 font-sans font-semibold">
                             About me
                         </h1>
                         <div className="text-3xl animate-bounce w-3 h-3">

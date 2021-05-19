@@ -34,7 +34,7 @@ const Works = () => {
         <div className="">
             <div className="text-mirage-500 bg-white rounded w-40 m-auto md:mt-8 p-2 pl-3">
                 <div className="flex flex-row justify-center">
-                    <h1 className="text-md my-1 font-semibold">
+                    <h1 className="text-md my-1 font-sans font-semibold">
                         My Works
                     </h1>
                     <div className="text-3xl">
@@ -54,7 +54,7 @@ const Works = () => {
                                         alt={edge.node.screenshots.description}
                                     />
                                 </div>
-                                <div className="flex flex-col justify-center mx-2 md:-ml-5 md:place-self-center md:mr-12">
+                                <div className="flex flex-col justify-center mx-2 md:-ml-5 md:place-self-center md:mr-12 font-sans">
                                     <h1 className="text-white text-justify font-semibold mt-2 md:mt-0"> <span role="img"> 📌 </span>{edge.node.name} </h1>
                                     <p className="text-white text-justify md:mr-12 mt-2"> {edge.node.projectDescription.Description} </p>
                                     <p className="text-white font-normal text-justify md:mr-12 my-2"> <span role="img"> 💡</span>Tools: <span className="font-normal">{edge.node.usedTools.tools}</span> </p>

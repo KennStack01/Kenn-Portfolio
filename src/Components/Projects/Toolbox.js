@@ -29,7 +29,7 @@ const Toolbox = () => {
         <div className="flex flex-col">
             <div className="text-mirage-500 bg-white rounded w-32 md:w-36 m-auto p-2 pl-3 md:p-4 md:mb-5 md:mt-10">
                 <div className="flex flex-row">
-                    <h1 className="text-md md:text-lg my-1 ml-2 font-semibold md:font-bold">
+                    <h1 className="text-md md:text-lg my-1 ml-2 font-sans font-semibold md:font-bold">
                         Toolbox
                     </h1>
                     <div className="text-3xl md:text-4xl md:pr-2">

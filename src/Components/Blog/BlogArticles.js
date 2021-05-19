@@ -26,7 +26,7 @@ const BlogArticles = () => {
 
     return (
         <div>
-            <div className="">
+            <div className="font-sans">
                 <h1 className="text-white text-2xl font-bold mb-2">Blog Articles</h1>
                 <div className="flex flex-col md:grid md:grid-cols-3">
                     { allPosts.map( (post) => (
