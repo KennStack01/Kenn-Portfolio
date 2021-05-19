@@ -2,13 +2,15 @@ import React from 'react'
 
 /* eslint-disable */ 
 
+
+
 const ContactForm = () => {
     return (
         <div>
             <div className="mb-5">
                 📩 <span className="underline font-sans font-semibold text-white"> Send me a Direct Message </span> 👇 <br/>   
             </div>
-            <form name="contact" method="POST" data-netlify="true" className="text-white mx-4 md:w-96 md:mx-auto font-sans">
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" className="text-white mx-4 md:w-96 md:mx-auto font-sans">
                 <p className="my-2">
                     <label className="flex flex-col">
                         <h1 className="text-left">
