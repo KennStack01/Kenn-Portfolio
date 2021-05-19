@@ -21,7 +21,7 @@ const MyLinktree = () => {
                     I'm available for interesting Projects, Business and Jobs.🚀 <br/>
                 </p>
                 <div>
-                    🔔 <span className="underline font-semibold text-white"> Where you can find me </span> 👇 <br/>   
+                    🔔 <span className="underline font-sans font-semibold text-white"> Where you can find me </span> 👇 <br/>   
                 </div>
             </div>
             {/* Logos Social Media */}
