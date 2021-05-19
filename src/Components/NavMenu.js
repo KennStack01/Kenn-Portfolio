@@ -10,6 +10,8 @@ const activeLinkStyles = {textDecoration: "underline", textDecorationColor: "#EB
 let activeAnimationStyleCSS = 'animate-ping absolute ml-7 h-5 w-5 rounded-full bg-myYellow-400 opacity-75'
 const hirePagePath = ['/hire']
 
+// Check if window is defined (so if in the browser or in node.js).
+const isBrowser = typeof window !== "undefined"
 
 const NavMenu = () => {
     return (
@@ -48,9 +50,13 @@ const NavMenu = () => {
                 <div className="cursor-pointer">
                     <Link to="/hire" activeStyle={activeLinkStyles} activeClassName="active">
                         <div className="grid justify-items-center border-transparent border-b-3 hover:border-myYellow-500">
-                            { (!(window.location.pathname.includes(hirePagePath))) ? (
-                                        <span className={activeAnimationStyleCSS}></span>
-                                    ) : ''
+                            {
+                            
+                                isBrowser ? (
+                                    (!(window.location.pathname.includes(hirePagePath))) ? (
+                                                <span className={activeAnimationStyleCSS}></span>
+                                            ) : ''
+                                ) : ''
                             }
                             <div className="text-2xl">
                                 <IoChatbubblesSharp/>

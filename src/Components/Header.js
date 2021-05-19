@@ -7,6 +7,9 @@ let activeAnimationStyleCSS = 'animate-ping absolute ml-7 h-5 w-5 rounded-full b
 const hirePagePath = ['/hire']
 
 
+// Check if window is defined (so if in the browser or in node.js).
+const isBrowser = typeof window !== "undefined"
+
 const Header = () => {
 
     return (
@@ -49,9 +52,13 @@ const Header = () => {
                     <div className=" mx-4 cursor-pointer">
                         <Link to="/hire" activeStyle={activeLinkStyles} activeClassName='active'>
                             <div className="grid justify-items-center">
-                                { (!(window.location.pathname.includes(hirePagePath))) ? (
-                                        <span className={activeAnimationStyleCSS}></span>
+                                { 
+                                    isBrowser ? (
+                                        (!(window.location.pathname.includes(hirePagePath))) ? (
+                                            <span className={activeAnimationStyleCSS}></span>
+                                        ) : ''
                                     ) : ''
+                                
                                 }
                                 <h1 className="text-white border-transparent border-b-2 hover:border-myYellow-500"> • Hire me </h1>
                             </div>
