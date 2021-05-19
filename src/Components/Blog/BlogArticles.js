@@ -38,14 +38,14 @@ const BlogArticles = () => {
                             />
                             <div className="flex-grow m-auto text-white text-center mx-2">
                                 <div>
-                                    <h1 className="text-lg font-semibold "> {post.title} </h1>
+                                    <h1 className="text-lg font-semibold font-sans"> {post.title} </h1>
                                     {/* <p className="text-md mT-2"> { post.brief.substring(0, 60).concat(`...`) } </p> */}
                                     <p className="text-xs"> { new Date(post.dateAdded).toDateString() } </p>
                                 </div>
                             </div>
                             <div className="m-auto my-2">
                                 <a href={`https://stackoverblog.hashnode.dev/${post.slug}`} target="__blank"> 
-                                    <div className="font-semibold flex flex-row text-white"> 
+                                    <div className="font-semibold font-sans flex flex-row text-white"> 
                                         <h3>
                                             Read more 
                                         </h3>
