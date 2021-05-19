@@ -12,7 +12,7 @@ import { FaInstagram } from 'react-icons/fa'
 const MyLinktree = () => {
     return (
         <div>
-            <div className="bg-white text-mirage-500 p-3 w-42 m-auto rounded">
+            <div className="bg-white text-mirage-500 p-3 w-40 m-auto rounded">
                 <h1 className="font-sans font-bold">Let's Connect 👋</h1>
             </div>
             <div className="flex flex-col justify-items-center mx-2 md:mx-12">
