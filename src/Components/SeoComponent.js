@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 
 
 // UNDER CONSTRUCTION
-function Seo({ description, lang, meta, title  }) {
+function SeoComponent({ description, lang, meta, title  }) {
   const site = query
   // const { description, lang, meta, title } = site
 
@@ -78,17 +78,17 @@ export const query = graphql`
 
 
 
-Seo.defaultProps = {
+SeoComponent.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
 }
 
-Seo.propTypes = {
+SeoComponent.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
-export default Seo
+export default SeoComponent
