@@ -16,7 +16,7 @@ const MyLinktree = () => {
                 <h1 className="font-sans font-bold">Let's Connect 👋</h1>
             </div>
             <div className="flex flex-col justify-items-center mx-2 md:mx-12">
-                <p className="text-justify text-white md:mx-10 my-5"> Building Products, my Mission is to solve People's problems using Technologies.
+                <p className="text-justify font-sans text-white md:mx-10 my-5"> Building Products, my Mission is to solve People's problems using Technologies.
                     Connecting with People around the world is a great experience for me. Hence, I have joined multiple Social Networks for the purpose of building networks.
                     I'm available for interesting Projects, Business and Jobs.🚀 <br/>
                 </p>

@@ -14,13 +14,13 @@ const Header = () => {
 
     return (
         <div className="flex flex-row justify-between backdrop-filter backdrop-blur md:shadow top-0 md:sticky lg:mb-5 lg:pb-2 mb-0">
-            <h1 className="text-white font-semibold mt-2 ml-2 cursor-pointer md:ml-10"> 
+            <h1 className="text-white font-sans font-semibold mt-2 ml-2 cursor-pointer md:ml-10"> 
                 <Link to="/">
                     <div className="flex flex-row">
                         <div className="text-3xl">
                             <IoBulb/>
                         </div>
-                        <div className="text-xl m-auto mt-1">
+                        <div className="text-xl font-sans m-auto mt-1">
                             Kenn 
                         </div>
                     </div>
