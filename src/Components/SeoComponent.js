@@ -45,6 +45,10 @@ function SeoComponent({ description, lang, meta, title  }) {
         },
         {
           name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:image`,
           content: `${previewTwitter}`,
         },
         {
