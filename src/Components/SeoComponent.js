@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import previewPicture from '../Images/preview.jpg'
+import previewTwitter from '../Images/previewTwitter.jpg'
 
 
 // UNDER CONSTRUCTION
@@ -44,7 +45,7 @@ function SeoComponent({ description, lang, meta, title  }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `${previewTwitter}`,
         },
         {
           name: `twitter:creator`,
