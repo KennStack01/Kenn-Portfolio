@@ -11,6 +11,9 @@ const blog = () => {
             <Layout>
                 <div>
                     <BlogArticles/>
+                    <div className="my-5">
+                    <span className="text-xl"> 🔔 </span> <span className=" font-semibold font-sans text-white"> New Blog Posts will appear next week... Stay tuned ! </span> <span className="text-xl">😍</span> <br/>   
+                </div>
                 </div>
             </Layout>
         </div>
