@@ -44,7 +44,7 @@ const BlogArticles = () => {
                                 </div>
                             </div>
                             <div className="m-auto my-2">
-                                <a href={`https://stackoverblog.hashnode.dev/${post.slug}`} target="__blank"> 
+                                <a href={`https://kennstack.hashnode.dev/${post.slug}`} target="__blank"> 
                                     <div className="font-semibold font-sans flex flex-row text-white"> 
                                         <h3>
                                             Read more 
