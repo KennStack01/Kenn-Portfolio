@@ -8,7 +8,7 @@ const Works = () => {
 
     const data = useStaticQuery(graphql`
         query MyQuery {
-            allContentfulClientProject {
+            allContentfulClientProject(sort: {fields: [date], order: DESC}) {
                 edges {
                     node {
                         name
