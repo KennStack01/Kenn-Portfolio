@@ -47,7 +47,7 @@ const MyLinktree = () => {
                         </div>
                         <h1 className="text-xs mt-1 mx-1 font-sans lg:text-sm">Twitter</h1>
                     </a>
-                    <a href="https://www.indiehackers.com/KennHacker" target="__blank" className="flex flex-row justify-center text-white my-5">
+                    <a href="https://www.indiehackers.com/iamKenn" target="__blank" className="flex flex-row justify-center text-white my-5">
                         <div className="text-2xl lg:text-3xl">
                             <CgIndieHackers/>
                         </div>
